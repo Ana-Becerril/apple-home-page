@@ -2,7 +2,7 @@ body{
     display: grid;
     position: relative;
     min-height: 130vh;
-    grid-template-rows: 60% 30% 10%;
+    grid-template-rows: 62% 30% 10%;
     row-gap: 1px;
     background-color: none;
 }
@@ -14,13 +14,16 @@ body{
 }
 
 nav{
-    padding-top: 15px;
     display: grid;
-    max-height: 5%;
-    max-width: 70%;
+    max-height: 7%;
+    width: 73%;
     grid-template-columns: repeat(9, 1fr);
     grid-template-areas: "logo store mac ipod iphone ipad itunes support search";
-    background-color: gray;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    border-radius: 5px;
 }
 
 .item-logo{
