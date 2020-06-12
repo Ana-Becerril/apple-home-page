@@ -9,6 +9,50 @@ body{
 
 .header{
    background-color: darkmagenta;
+   display: flex;
+   justify-content: center;
+}
+
+nav{
+    padding-top: 15px;
+    display: grid;
+    max-height: 5%;
+    max-width: 70%;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-areas: "logo store mac ipod iphone ipad itunes support search";
+    background-color: gray;
+}
+
+.item-logo{
+    grid-area: logo;
+}
+
+.item-store{
+    grid-area: store;
+}
+
+.item-mac{
+    grid-area: mac;
+}
+
+.item-ipod{
+    grid-area: ipod;
+}
+
+.item-iphone{
+    grid-area: iphone;
+}
+
+.item-itunes{
+    grid-area: itunes;
+}
+
+.item-support{
+    grid-area: support;
+}
+
+.item-search{
+    grid-area: search;
 }
 
 .main{
