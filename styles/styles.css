@@ -9,7 +9,7 @@ body{
     width: 100%;
     display: grid;
     height: 130vh;
-    grid-template-rows: 63% 23% 12%;
+    grid-template-rows: 63% 25% 12%;
     padding: 0;
     margin: 0;
 }
@@ -28,7 +28,7 @@ nav{
     width: 73%;
     grid-template-columns: repeat(9, 1fr);
     grid-template-areas: "logo store mac ipod iphone ipad itunes support search";
-    background: linear-gradient(gray, white);
+    background: gray 50%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -126,4 +126,5 @@ nav{
 }
 
 .footer{
+    background-color: white;
 }
